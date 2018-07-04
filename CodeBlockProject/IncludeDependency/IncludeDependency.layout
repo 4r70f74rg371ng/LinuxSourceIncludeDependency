@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Release" />
+	<File name="..\..\Lexer\CLexerFile.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="734" topLine="2" />
+		</Cursor>
+	</File>
+	<File name="..\..\DataStructure\PathGraph.c" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6648" topLine="253" />
+		</Cursor>
+	</File>
+	<File name="..\..\Common.c" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3450" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\DataStructure\PathGraph.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3515" topLine="60" />
+		</Cursor>
+	</File>
+	<File name="..\..\DataStructure\CustomableSimpleLinkedList.c" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1626" topLine="39" />
+		</Cursor>
+	</File>
+	<File name="..\..\Lexer\CLexerResult.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="712" topLine="69" />
+		</Cursor>
+	</File>
+	<File name="..\..\Lexer\CLexerFile.c" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5221" topLine="204" />
+		</Cursor>
+	</File>
+	<File name="..\..\Lexer\CLexerTokenStringMap.c" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="369" topLine="3" />
+		</Cursor>
+	</File>
+	<File name="..\..\Lexer\CLexerLexer.c" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1100" topLine="45" />
+		</Cursor>
+	</File>
+	<File name="..\..\Lexer\CLexerTokenStringMap.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="435" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\Lexer\CLexerResult.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2216" topLine="36" />
+		</Cursor>
+	</File>
+	<File name="..\..\main.c" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2254" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\DataStructure\CustomableSimpleLinkedList.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2868" topLine="58" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>

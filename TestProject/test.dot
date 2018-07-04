@@ -1,0 +1,12 @@
+digraph g {
+   "C:\\Users\\user\\Desktop\\IncludeDependency\\TestProject\\main.c" -> "stdio.h" [color=blue];
+   "C:\\Users\\user\\Desktop\\IncludeDependency\\TestProject\\PathGraph.c" -> "C:\\Users\\user\\Desktop\\IncludeDependency\\TestProject\\PathGraph.h" [color=red];
+   "C:\\Users\\user\\Desktop\\IncludeDependency\\TestProject\\PathGraph.h" -> "C:\\Users\\user\\Desktop\\IncludeDependency\\TestProject\\CustomableSimpleLinkedList.h" [color=red];
+   "C:\\Users\\user\\Desktop\\IncludeDependency\\TestProject\\CustomableSimpleLinkedList.c" -> "C:\\Users\\user\\Desktop\\IncludeDependency\\TestProject\\CustomableSimpleLinkedList.h" [color=red];
+   "C:\\Users\\user\\Desktop\\IncludeDependency\\TestProject\\main.c" [label="main.c" color=red];
+   "stdio.h" [label="stdio.h" color=red];
+   "C:\\Users\\user\\Desktop\\IncludeDependency\\TestProject\\PathGraph.c" [label="PathGraph.c" color=red];
+   "C:\\Users\\user\\Desktop\\IncludeDependency\\TestProject\\PathGraph.h" [label="PathGraph.h" color=red];
+   "C:\\Users\\user\\Desktop\\IncludeDependency\\TestProject\\CustomableSimpleLinkedList.h" [label="CustomableSimpleLinkedList.h" color=red];
+   "C:\\Users\\user\\Desktop\\IncludeDependency\\TestProject\\CustomableSimpleLinkedList.c" [label="CustomableSimpleLinkedList.c" color=red];
+}

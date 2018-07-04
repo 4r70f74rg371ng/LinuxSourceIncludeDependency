@@ -1,0 +1,79 @@
+# depslib dependency file v1.0
+1518314156 source:c:\users\user\desktop\includedependency\datastructure\customablesimplelinkedlist.c
+	"CustomableSimpleLinkedList.h"
+
+1518313788 c:\users\user\desktop\includedependency\datastructure\customablesimplelinkedlist.h
+	<stdio.h>
+	<stdlib.h>
+
+1518343874 source:c:\users\user\desktop\includedependency\lexer\clexerlexer.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"CLexerTokenStringMap.h"
+	"CLexerTokens.h"
+	"CLexerLexer.h"
+
+1518343380 c:\users\user\desktop\includedependency\lexer\clexertokenstringmap.h
+	"../DataStructure/CustomableSimpleLinkedList.h"
+
+1518238825 c:\users\user\desktop\includedependency\lexer\clexertokens.h
+
+1518241360 c:\users\user\desktop\includedependency\lexer\clexerlexer.h
+
+1518240628 source:c:\users\user\desktop\includedependency\lexer\clexertokens.c
+	<stdio.h>
+	<stdlib.h>
+	"CLexerTokens.h"
+
+1518845766 source:c:\users\user\desktop\includedependency\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Lexer/CLexerTokens.h"
+	"Lexer/CLexerFile.h"
+	"Lexer/CLexerTokenStringMap.h"
+	"Common.h"
+	"DataStructure/PathGraph.h"
+
+1518342981 c:\users\user\desktop\includedependency\lexer\clexerfile.h
+	"CLexerResult.h"
+
+1518344191 c:\users\user\desktop\includedependency\lexer\clexerresult.h
+	"../DataStructure/CustomableSimpleLinkedList.h"
+
+1518343429 source:c:\users\user\desktop\includedependency\lexer\clexertokenstringmap.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"CLexerTokenStringMap.h"
+
+1518355810 source:c:\users\user\desktop\includedependency\lexer\clexerresult.c
+	<string.h>
+	"CLexerTokenStringMap.h"
+	"CLexerResult.h"
+
+1518355507 source:c:\users\user\desktop\includedependency\lexer\clexerfile.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<Windows.h>
+	"CLexerTokenStringMap.h"
+	"CLexerLexer.h"
+	"CLexerFile.h"
+	"CLexerResult.h"
+
+1518877252 source:c:\users\user\desktop\includedependency\common.c
+	"Common.h"
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1518713118 c:\users\user\desktop\includedependency\common.h
+
+1518861935 c:\users\user\desktop\includedependency\datastructure\pathgraph.h
+	"CustomableSimpleLinkedList.h"
+
+1518859211 source:c:\users\user\desktop\includedependency\datastructure\pathgraph.c
+	"../Common.h"
+	"PathGraph.h"
+

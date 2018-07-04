@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="IncludeDependency" />
+		<Option pch_mode="2" />
+		<Option compiler="tdmgcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/IncludeDependency" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="tdmgcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/IncludeDependency" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="tdmgcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c11" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-O3" />
+			<Add option="-Wall" />
+			<Add option="-O3" />
+		</Compiler>
+		<Unit filename="../../Common.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Common.h" />
+		<Unit filename="../../DataStructure/CustomableSimpleLinkedList.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../DataStructure/CustomableSimpleLinkedList.h" />
+		<Unit filename="../../DataStructure/PathGraph.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../DataStructure/PathGraph.h" />
+		<Unit filename="../../Lexer/CLexerFile.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Lexer/CLexerFile.h" />
+		<Unit filename="../../Lexer/CLexerLexer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Lexer/CLexerLexer.h" />
+		<Unit filename="../../Lexer/CLexerResult.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Lexer/CLexerResult.h" />
+		<Unit filename="../../Lexer/CLexerTokenStringMap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Lexer/CLexerTokenStringMap.h" />
+		<Unit filename="../../Lexer/CLexerTokens.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Lexer/CLexerTokens.h" />
+		<Unit filename="../../main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../main.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

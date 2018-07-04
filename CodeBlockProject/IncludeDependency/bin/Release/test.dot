@@ -1,0 +1,7 @@
+digraph g {
+   "D:\\LinuxSource\\linux-4.9.tar\\linux-4.9\\linux-4.9\\arch\\alpha\\boot\\bootp.c" -> "D:\\LinuxSource\\linux-4.9.tar\\linux-4.9\\linux-4.9\\arch\\alpha\\boot\\ksize.h" [color=red];
+   "D:\\LinuxSource\\linux-4.9.tar\\linux-4.9\\linux-4.9\\arch\\alpha\\boot\\main.c" -> "D:\\LinuxSource\\linux-4.9.tar\\linux-4.9\\linux-4.9\\arch\\alpha\\boot\\ksize.h" [color=red];
+   "D:\\LinuxSource\\linux-4.9.tar\\linux-4.9\\linux-4.9\\arch\\alpha\\boot\\bootp.c" [label="bootp.c" color=blue];
+   "D:\\LinuxSource\\linux-4.9.tar\\linux-4.9\\linux-4.9\\arch\\alpha\\boot\\ksize.h" [label="ksize.h" color=red];
+   "D:\\LinuxSource\\linux-4.9.tar\\linux-4.9\\linux-4.9\\arch\\alpha\\boot\\main.c" [label="main.c" color=blue];
+}

@@ -1,0 +1,1086 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module anonymous-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="1897" level="1" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="669" level="1" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="214" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="8.864" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="3.126" level="0" />
+<weighted_methods_per_class_unity value="68" level="0" />
+<weighted_methods_per_class_visibility value="58" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="0" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>CleanupGraph(PPathGraph)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\DataStructure\PathGraph.h" line="56" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\DataStructure\PathGraph.c" line="86" />
+</extent>
+<lines_of_code value="7" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>GetNodeFullPath(PPathGraph,int)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\DataStructure\PathGraph.h" line="60" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\DataStructure\PathGraph.c" line="197" />
+</extent>
+<lines_of_code value="14" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>GetNodeId(PPathGraph,char *)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\DataStructure\PathGraph.h" line="57" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\DataStructure\PathGraph.c" line="93" />
+</extent>
+<lines_of_code value="15" level="0" />
+<McCabes_cyclomatic_complexity value="8" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="2" />
+</member_function>
+<member_function>
+<name>GetNodeIdFromSplit(PPathGraph,char *,char *,int)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\DataStructure\PathGraph.h" line="58" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\DataStructure\PathGraph.c" line="109" />
+</extent>
+<lines_of_code value="20" level="0" />
+<McCabes_cyclomatic_complexity value="9" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="2" />
+</member_function>
+<member_function>
+<name>InitGraph(PPathGraph)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\DataStructure\PathGraph.h" line="55" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\DataStructure\PathGraph.c" line="79" />
+</extent>
+<lines_of_code value="7" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>InsertLink(PPathGraph,char *,char *,char *,int,int)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\DataStructure\PathGraph.h" line="61" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\DataStructure\PathGraph.c" line="212" />
+</extent>
+<lines_of_code value="30" level="0" />
+<McCabes_cyclomatic_complexity value="11" level="1" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="10.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="3.667" level="0" />
+</member_function>
+<member_function>
+<name>InsertNode(PPathGraph,char *,char *,int,int)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\DataStructure\PathGraph.h" line="59" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\DataStructure\PathGraph.c" line="132" />
+</extent>
+<lines_of_code value="50" level="1" />
+<McCabes_cyclomatic_complexity value="23" level="1" />
+<lines_of_comment value="5" level="0" />
+<lines_of_code_per_line_of_comment value="10.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="4.600" level="0" />
+</member_function>
+<member_function>
+<name>SimpleLinkedList_Append(PSimpleLinkedList,void *,void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.c" line="37" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.h" line="68" />
+</extent>
+<lines_of_code value="54" level="1" />
+<McCabes_cyclomatic_complexity value="13" level="1" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="27.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="6.500" level="1" />
+</member_function>
+<member_function>
+<name>SimpleLinkedList_AttachHead(PSimpleLinkedList,void *,void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.c" line="103" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.h" line="69" />
+</extent>
+<lines_of_code value="54" level="1" />
+<McCabes_cyclomatic_complexity value="13" level="1" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="2" />
+</member_function>
+<member_function>
+<name>SimpleLinkedList_Cleanup(PSimpleLinkedList,void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.c" line="350" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.h" line="86" />
+</extent>
+<lines_of_code value="20" level="0" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="0" />
+</member_function>
+<member_function>
+<name>SimpleLinkedList_ConvertArray(PSimpleLinkedList,void ***,size_t *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.c" line="290" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.h" line="83" />
+</extent>
+<lines_of_code value="21" level="0" />
+<McCabes_cyclomatic_complexity value="7" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="10.500" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="3.500" level="0" />
+</member_function>
+<member_function>
+<name>SimpleLinkedList_ConvertArrayAndCleanup(PSimpleLinkedList,void ***,size_t *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.c" line="371" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.h" line="90" />
+</extent>
+<lines_of_code value="27" level="0" />
+<McCabes_cyclomatic_complexity value="7" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="9.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="2.333" level="0" />
+</member_function>
+<member_function>
+<name>SimpleLinkedList_Custom_Initial(PSimpleLinkedList,int,SimpleLinkedListElementInitialFunc,SimpleLinkedListElementFreeFunc)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.c" line="17" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.h" line="62" />
+</extent>
+<lines_of_code value="19" level="0" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="5.000" level="0" />
+</member_function>
+<member_function>
+<name>SimpleLinkedList_Delete(PSimpleLinkedListElement,void **,void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.c" line="311" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.h" line="85" />
+</extent>
+<lines_of_code value="31" level="1" />
+<McCabes_cyclomatic_complexity value="9" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="7.750" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="2.250" level="0" />
+</member_function>
+<member_function>
+<name>SimpleLinkedList_GetAfter(PSimpleLinkedListElement)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.c" line="202" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.h" line="77" />
+</extent>
+<lines_of_code value="7" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>SimpleLinkedList_GetBefore(PSimpleLinkedListElement)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.c" line="195" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.h" line="76" />
+</extent>
+<lines_of_code value="7" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>SimpleLinkedList_GetById(PSimpleLinkedList,int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.c" line="413" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.h" line="94" />
+</extent>
+<lines_of_code value="12" level="0" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="0" />
+</member_function>
+<member_function>
+<name>SimpleLinkedList_GetByIndex(PSimpleLinkedList,int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.c" line="399" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.h" line="93" />
+</extent>
+<lines_of_code value="14" level="0" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="2.500" level="0" />
+</member_function>
+<member_function>
+<name>SimpleLinkedList_GetEnd(PSimpleLinkedList)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.c" line="174" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.h" line="72" />
+</extent>
+<lines_of_code value="7" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>SimpleLinkedList_GetFirst(PSimpleLinkedList)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.c" line="167" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.h" line="71" />
+</extent>
+<lines_of_code value="7" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>SimpleLinkedList_GetLast(PSimpleLinkedListElement)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.c" line="188" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.h" line="75" />
+</extent>
+<lines_of_code value="7" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>SimpleLinkedList_GetNext(PSimpleLinkedListElement)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.c" line="181" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.h" line="74" />
+</extent>
+<lines_of_code value="7" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>SimpleLinkedList_Initial(PSimpleLinkedList)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.c" line="3" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.h" line="60" />
+</extent>
+<lines_of_code value="14" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>SimpleLinkedList_InsertAfter(PSimpleLinkedListElement,void *,void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.c" line="209" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.h" line="79" />
+</extent>
+<lines_of_code value="33" level="1" />
+<McCabes_cyclomatic_complexity value="8" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="2" />
+</member_function>
+<member_function>
+<name>SimpleLinkedList_InsertBefore(PSimpleLinkedListElement,void *,void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.c" line="248" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.h" line="80" />
+</extent>
+<lines_of_code value="34" level="1" />
+<McCabes_cyclomatic_complexity value="9" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="2" />
+</member_function>
+<member_function>
+<name>SimpleLinkedList_PrintByAfter(PSimpleLinkedList)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.c" line="439" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.h" line="98" />
+</extent>
+<lines_of_code value="14" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>SimpleLinkedList_PrintByNext(PSimpleLinkedList)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.c" line="425" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.h" line="97" />
+</extent>
+<lines_of_code value="14" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>SimpleLinkedList_PrintReverseByBefore(PSimpleLinkedList)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.c" line="468" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.h" line="100" />
+</extent>
+<lines_of_code value="15" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>SimpleLinkedList_PrintReverseByLast(PSimpleLinkedList)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.c" line="453" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\DataStructure\CustomableSimpleLinkedList.h" line="99" />
+</extent>
+<lines_of_code value="15" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>WriteDotFileGraph(PPathGraph,char *)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\DataStructure\PathGraph.h" line="62" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\DataStructure\PathGraph.c" line="261" />
+</extent>
+<lines_of_code value="38" level="1" />
+<McCabes_cyclomatic_complexity value="9" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="2" />
+</member_function>
+<member_function>
+<name>WriteDotFileGraphSpecific(PPathGraph,char *,char *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\main.c" line="266" />
+</extent>
+<lines_of_code value="85" level="1" />
+<McCabes_cyclomatic_complexity value="29" level="1" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="42.500" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="14.500" level="2" />
+</member_function>
+<member_function>
+<name>clexer_enum_cfile_directory(char *,clexer_handler_tokens_maps_func,void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\Lexer\CLexerFile.c" line="142" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\Lexer\CLexerFile.h" line="11" />
+</extent>
+<lines_of_code value="21" level="0" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<lines_of_comment value="10" level="0" />
+<lines_of_code_per_line_of_comment value="2.100" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.500" level="0" />
+</member_function>
+<member_function>
+<name>clexer_enum_cfile_directory_return(char *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\Lexer\CLexerFile.c" line="341" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\Lexer\CLexerFile.h" line="18" />
+</extent>
+<lines_of_code value="27" level="0" />
+<McCabes_cyclomatic_complexity value="7" level="0" />
+<lines_of_comment value="10" level="0" />
+<lines_of_code_per_line_of_comment value="2.700" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.700" level="0" />
+</member_function>
+<member_function>
+<name>clexer_enum_cfile_directory_return_internal(pclexer_result_dir,char *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\Lexer\CLexerFile.c" line="310" />
+</extent>
+<lines_of_code value="20" level="0" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<lines_of_comment value="11" level="0" />
+<lines_of_code_per_line_of_comment value="1.818" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.455" level="0" />
+</member_function>
+<member_function>
+<name>clexer_handle_c_file(char *,char *,char *,char *,clexer_handler_tokens_maps_func,void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\Lexer\CLexerFile.c" line="10" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\Lexer\CLexerFile.h" line="9" />
+</extent>
+<lines_of_code value="37" level="1" />
+<McCabes_cyclomatic_complexity value="10" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="2" />
+</member_function>
+<member_function>
+<name>clexer_handle_c_file_content(char *,char *,char *,char *,char *,long)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\Lexer\CLexerLexer.h" line="11" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\Lexer\CLexerLexer.c" line="114" />
+</extent>
+<lines_of_code value="62" level="1" />
+<McCabes_cyclomatic_complexity value="13" level="1" />
+<lines_of_comment value="16" level="0" />
+<lines_of_code_per_line_of_comment value="3.875" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.812" level="0" />
+</member_function>
+<member_function>
+<name>clexer_handle_c_file_return(pclexer_result_dir,char *,char *,char *,char *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\Lexer\CLexerFile.c" line="176" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\Lexer\CLexerFile.h" line="16" />
+</extent>
+<lines_of_code value="36" level="1" />
+<McCabes_cyclomatic_complexity value="10" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="18.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="5.000" level="0" />
+</member_function>
+<member_function>
+<name>clexer_handle_file(char *,clexer_handler_tokens_maps_func,void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\Lexer\CLexerFile.c" line="61" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\Lexer\CLexerFile.h" line="10" />
+</extent>
+<lines_of_code value="67" level="1" />
+<McCabes_cyclomatic_complexity value="22" level="1" />
+<lines_of_comment value="7" level="0" />
+<lines_of_code_per_line_of_comment value="9.571" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="3.143" level="0" />
+</member_function>
+<member_function>
+<name>clexer_handle_file_return(pclexer_result_dir,char *,char *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\Lexer\CLexerFile.c" line="225" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\Lexer\CLexerFile.h" line="17" />
+</extent>
+<lines_of_code value="67" level="1" />
+<McCabes_cyclomatic_complexity value="22" level="1" />
+<lines_of_comment value="11" level="0" />
+<lines_of_code_per_line_of_comment value="6.091" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="2.000" level="0" />
+</member_function>
+<member_function>
+<name>clexer_handle_token(int,char *,char *)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\Lexer\CLexerLexer.h" line="10" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\Lexer\CLexerLexer.c" line="69" />
+</extent>
+<lines_of_code value="11" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="29" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>clexer_handle_token_type0_keyword(char *,char *)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\Lexer\CLexerLexer.h" line="7" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\Lexer\CLexerLexer.c" line="8" />
+</extent>
+<lines_of_code value="14" level="0" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="0" />
+</member_function>
+<member_function>
+<name>clexer_handle_token_type2_charset(char *,char *)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\Lexer\CLexerLexer.h" line="8" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\Lexer\CLexerLexer.c" line="25" />
+</extent>
+<lines_of_code value="17" level="0" />
+<McCabes_cyclomatic_complexity value="7" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="2" />
+</member_function>
+<member_function>
+<name>clexer_print_escape(char *)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\Lexer\CLexerLexer.h" line="9" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\Lexer\CLexerLexer.c" line="44" />
+</extent>
+<lines_of_code value="19" level="0" />
+<McCabes_cyclomatic_complexity value="12" level="1" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="2" />
+</member_function>
+<member_function>
+<name>clexer_result_dir_cleanup(pclexer_result_dir)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\Lexer\CLexerResult.c" line="71" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\Lexer\CLexerResult.h" line="40" />
+</extent>
+<lines_of_code value="10" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>clexer_result_dir_initial(pclexer_result_dir,char *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\Lexer\CLexerResult.c" line="47" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\Lexer\CLexerResult.h" line="39" />
+</extent>
+<lines_of_code value="20" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="20.000" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>clexer_result_file_free(SimpleLinkedList *,SimpleLinkedListElement *,void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\Lexer\CLexerResult.c" line="26" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\Lexer\CLexerResult.h" line="28" />
+</extent>
+<lines_of_code value="21" level="0" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="2" />
+</member_function>
+<member_function>
+<name>clexer_result_file_initial(SimpleLinkedList *,SimpleLinkedListElement *,void *,void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\Lexer\CLexerResult.c" line="7" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\Lexer\CLexerResult.h" line="27" />
+</extent>
+<lines_of_code value="15" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>concat_path(char *,char *,int)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\Common.h" line="6" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\Common.c" line="8" />
+</extent>
+<lines_of_code value="120" level="2" />
+<McCabes_cyclomatic_complexity value="77" level="2" />
+<lines_of_comment value="6" level="0" />
+<lines_of_code_per_line_of_comment value="20.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="12.833" level="2" />
+</member_function>
+<member_function>
+<name>estrcpy(char *,char *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\DataStructure\PathGraph.c" line="250" />
+</extent>
+<lines_of_code value="10" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>free_filenodes(SimpleLinkedList *,SimpleLinkedListElement *,void *)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\DataStructure\PathGraph.h" line="19" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\DataStructure\PathGraph.c" line="44" />
+</extent>
+<lines_of_code value="15" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>free_includelinks(SimpleLinkedList *,SimpleLinkedListElement *,void *)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\DataStructure\PathGraph.h" line="40" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\DataStructure\PathGraph.c" line="75" />
+</extent>
+<lines_of_code value="3" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>free_mymap(SimpleLinkedList *,SimpleLinkedListElement *,void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\Lexer\CLexerTokenStringMap.c" line="28" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\Lexer\CLexerTokenStringMap.h" line="19" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>handle_include(char *,char *,char *,char *,char *,long,PSimpleLinkedList,char *,char *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\main.c" line="13" />
+</extent>
+<lines_of_code value="67" level="1" />
+<McCabes_cyclomatic_complexity value="24" level="1" />
+<lines_of_comment value="30" level="0" />
+<lines_of_code_per_line_of_comment value="2.233" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.800" level="0" />
+</member_function>
+<member_function>
+<name>handle_preprocessor(char *,char *,char *,char *,char *,long,PSimpleLinkedList,char *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\main.c" line="119" />
+</extent>
+<lines_of_code value="53" level="1" />
+<McCabes_cyclomatic_complexity value="21" level="1" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="26.500" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="10.500" level="2" />
+</member_function>
+<member_function>
+<name>handle_preprocessor2(char *,char *,char *,char *,PSimpleLinkedList,char *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\main.c" line="209" />
+</extent>
+<lines_of_code value="49" level="1" />
+<McCabes_cyclomatic_complexity value="20" level="1" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="49.000" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="20.000" level="2" />
+</member_function>
+<member_function>
+<name>initial_filenodes(SimpleLinkedList *,SimpleLinkedListElement *,void *,void *)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\DataStructure\PathGraph.h" line="18" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\DataStructure\PathGraph.c" line="4" />
+</extent>
+<lines_of_code value="36" level="1" />
+<McCabes_cyclomatic_complexity value="13" level="1" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="36.000" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="13.000" level="2" />
+</member_function>
+<member_function>
+<name>initial_includelinks(SimpleLinkedList *,SimpleLinkedListElement *,void *,void *)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\DataStructure\PathGraph.h" line="39" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\DataStructure\PathGraph.c" line="61" />
+</extent>
+<lines_of_code value="12" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>initial_mymap(SimpleLinkedList *,SimpleLinkedListElement *,void *,void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\Lexer\CLexerTokenStringMap.c" line="7" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\Lexer\CLexerTokenStringMap.h" line="18" />
+</extent>
+<lines_of_code value="19" level="0" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="5.000" level="0" />
+</member_function>
+<member_function>
+<name>is_file_exist(char *)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\Common.h" line="5" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\Common.c" line="143" />
+</extent>
+<lines_of_code value="8" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>main(...)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\main.c" line="368" />
+</extent>
+<lines_of_code value="7" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="20" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>my_c_lexer_handler(char *,char *,char *,char *,char *,long,PSimpleLinkedList,void *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\main.c" line="185" />
+</extent>
+<lines_of_code value="17" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="5" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>token_char_handler(char *)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\Lexer\CLexerTokens.h" line="19" />
+</extent>
+<lines_of_code value="1" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>token_comment_multiline_handler(char *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\Lexer\CLexerTokens.c" line="280" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\Lexer\CLexerTokens.h" line="20" />
+</extent>
+<lines_of_code value="54" level="1" />
+<McCabes_cyclomatic_complexity value="15" level="1" />
+<lines_of_comment value="12" level="0" />
+<lines_of_code_per_line_of_comment value="4.500" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.250" level="0" />
+</member_function>
+<member_function>
+<name>token_comment_singleline_handler(char *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\Lexer\CLexerTokens.c" line="223" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\Lexer\CLexerTokens.h" line="21" />
+</extent>
+<lines_of_code value="45" level="1" />
+<McCabes_cyclomatic_complexity value="15" level="1" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="15.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="5.000" level="0" />
+</member_function>
+<member_function>
+<name>token_id_handler(char *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\Lexer\CLexerTokens.c" line="98" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\Lexer\CLexerTokens.h" line="22" />
+</extent>
+<lines_of_code value="38" level="1" />
+<McCabes_cyclomatic_complexity value="21" level="1" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="19.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="10.500" level="2" />
+</member_function>
+<member_function>
+<name>token_number(char *)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\Lexer\CLexerTokens.h" line="23" />
+</extent>
+<lines_of_code value="1" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>token_preprocessor_handler(char *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\Lexer\CLexerTokens.c" line="146" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\Lexer\CLexerTokens.h" line="24" />
+</extent>
+<lines_of_code value="65" level="1" />
+<McCabes_cyclomatic_complexity value="18" level="1" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="65.000" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="18.000" level="2" />
+</member_function>
+<member_function>
+<name>token_string_handler(char *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="..\..\Lexer\CLexerTokens.c" line="359" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="..\..\Lexer\CLexerTokens.h" line="18" />
+</extent>
+<lines_of_code value="108" level="2" />
+<McCabes_cyclomatic_complexity value="69" level="2" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="36.000" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="23.000" level="2" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>anonymous</name>
+<client_module>
+</client_module>
+<supplier_module>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>
