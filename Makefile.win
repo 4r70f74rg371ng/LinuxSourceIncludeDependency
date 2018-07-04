@@ -1,0 +1,52 @@
+# Project: 專案1
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe -D__DEBUG__
+CC       = gcc.exe -D__DEBUG__
+WINDRES  = windres.exe
+OBJ      = main.o Lexer/CLexerFile.o Lexer/CLexerLexer.o Lexer/CLexerTokens.o Lexer/CLexerTokenStringMap.o DataStructure/CustomableSimpleLinkedList.o Lexer/CLexerResult.o Common.o TestProject/PathGraph.o
+LINKOBJ  = main.o Lexer/CLexerFile.o Lexer/CLexerLexer.o Lexer/CLexerTokens.o Lexer/CLexerTokenStringMap.o DataStructure/CustomableSimpleLinkedList.o Lexer/CLexerResult.o Common.o TestProject/PathGraph.o
+LIBS     = -L"D:/Dev-Cpp/MinGW64/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -g3
+INCS     = -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = 專案1.exe
+CXXFLAGS = $(CXXINCS) -g3
+CFLAGS   = $(INCS) -g3 -std=c99
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.c
+	$(CC) -c main.c -o main.o $(CFLAGS)
+
+Lexer/CLexerFile.o: Lexer/CLexerFile.c
+	$(CC) -c Lexer/CLexerFile.c -o Lexer/CLexerFile.o $(CFLAGS)
+
+Lexer/CLexerLexer.o: Lexer/CLexerLexer.c
+	$(CC) -c Lexer/CLexerLexer.c -o Lexer/CLexerLexer.o $(CFLAGS)
+
+Lexer/CLexerTokens.o: Lexer/CLexerTokens.c
+	$(CC) -c Lexer/CLexerTokens.c -o Lexer/CLexerTokens.o $(CFLAGS)
+
+Lexer/CLexerTokenStringMap.o: Lexer/CLexerTokenStringMap.c
+	$(CC) -c Lexer/CLexerTokenStringMap.c -o Lexer/CLexerTokenStringMap.o $(CFLAGS)
+
+DataStructure/CustomableSimpleLinkedList.o: DataStructure/CustomableSimpleLinkedList.c
+	$(CC) -c DataStructure/CustomableSimpleLinkedList.c -o DataStructure/CustomableSimpleLinkedList.o $(CFLAGS)
+
+Lexer/CLexerResult.o: Lexer/CLexerResult.c
+	$(CC) -c Lexer/CLexerResult.c -o Lexer/CLexerResult.o $(CFLAGS)
+
+Common.o: Common.c
+	$(CC) -c Common.c -o Common.o $(CFLAGS)
+
+TestProject/PathGraph.o: TestProject/PathGraph.c
+	$(CC) -c TestProject/PathGraph.c -o TestProject/PathGraph.o $(CFLAGS)
